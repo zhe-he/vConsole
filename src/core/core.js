@@ -554,7 +554,7 @@ class VConsole {
    * @public
    */
   reload() {
-    window.location.reload();
+    window.location.reload(true);
   }
 
   /**
